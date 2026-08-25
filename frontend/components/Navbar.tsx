@@ -52,17 +52,19 @@ export function Navbar() {
       {/* Main Nav */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center space-x-3 group">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-emerald-600 to-teal-400 text-slate-950 shadow-lg shadow-emerald-500/20 group-hover:scale-105 transition-transform">
-            <span className="text-xl font-black">₮</span>
+          <div className="relative flex h-11 w-36 sm:w-44 items-center justify-center overflow-hidden rounded-xl bg-white/95 p-1 shadow-lg shadow-emerald-500/10 border border-slate-700/50 group-hover:scale-105 transition-transform">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img
+              src="/logo.jpg"
+              alt="PROFINANCE Currency Exchange"
+              className="h-full w-full object-contain"
+            />
           </div>
-          <div>
-            <div className="flex items-center space-x-1.5">
-              <span className="text-lg font-bold tracking-tight text-white">USDT<span className="text-emerald-400">KG</span></span>
-              <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold text-emerald-400 border border-emerald-500/20">
-                P2P Escrow
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-400">Купить Tether в Кыргызстане</p>
+          <div className="hidden lg:block">
+            <span className="rounded-full bg-emerald-500/10 px-2 py-0.5 text-[10px] font-semibold text-emerald-400 border border-emerald-500/20">
+              P2P Escrow
+            </span>
+            <p className="text-[11px] text-slate-400">Обмен валют и USDT</p>
           </div>
         </Link>
 

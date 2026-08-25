@@ -12,10 +12,20 @@ export default function HomePage() {
       <div className="pointer-events-none absolute top-96 right-10 -z-10 h-[400px] w-[400px] rounded-full bg-teal-500/10 blur-[100px]"></div>
 
       {/* 1. Hero Section */}
-      <section className="mx-auto max-w-7xl px-4 pt-12 pb-6 sm:px-6 sm:pt-16 lg:px-8 text-center">
+      <section className="mx-auto max-w-7xl px-4 pt-10 pb-6 sm:px-6 sm:pt-14 lg:px-8 text-center">
+        {/* Brand Logo Card in Hero */}
+        <div className="mx-auto mb-6 flex max-w-xs sm:max-w-sm items-center justify-center overflow-hidden rounded-2xl bg-white/95 p-3 shadow-2xl shadow-emerald-500/20 border border-slate-700/60">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/logo.jpg"
+            alt="PROFINANCE Currency Exchange"
+            className="h-14 sm:h-16 w-auto object-contain"
+          />
+        </div>
+
         <div className="inline-flex items-center space-x-2 rounded-full border border-emerald-500/30 bg-emerald-500/10 px-3.5 py-1 text-xs font-semibold text-emerald-400 backdrop-blur-md">
           <Sparkles className="h-3.5 w-3.5" />
-          <span>№1 P2P Сервис покупки USDT в Кыргызстане</span>
+          <span>PROFINANCE — №1 Сервис обмена валют и USDT в Кыргызстане</span>
         </div>
 
         <h1 className="mx-auto mt-6 max-w-4xl text-3xl font-black tracking-tight text-white sm:text-5xl lg:text-6xl">

@@ -97,8 +97,12 @@ export default function RootLayout({
         </main>
         <footer className="border-t border-slate-800/80 bg-slate-950/80 py-10 text-xs text-slate-400">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
-            <div className="flex items-center space-x-2">
-              <span className="font-bold text-white">USDT<span className="text-emerald-400">KG</span></span>
+            <div className="flex items-center space-x-3">
+              <div className="h-7 w-20 overflow-hidden rounded bg-white p-0.5">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img src="/logo.jpg" alt="PROFINANCE" className="h-full w-full object-contain" />
+              </div>
+              <span className="font-bold text-white">PROFINANCE</span>
               <span>© {new Date().getFullYear()} Все права защищены. Кыргызстан, Бишкек.</span>
             </div>
             <div className="flex items-center space-x-6 text-slate-400">
