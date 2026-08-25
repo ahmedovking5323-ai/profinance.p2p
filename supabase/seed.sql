@@ -32,7 +32,7 @@ ON CONFLICT (network) DO UPDATE SET
 -- 3. SEED KYRGYZSTAN BANK PAYMENT REQUISITES
 INSERT INTO payment_methods (bank_name, card_number, recipient_name, currency, is_active, instructions, daily_limit_kgs)
 VALUES
-    ('MBank (КБ Кыргызстан)', '9417 1234 5678 9012', 'Айбек Т. (Оператор Обмена)', 'KGS', true, 'Перевод по номеру карты или через MBank по номеру телефона: +996 555 123 456. В комментарии укажите номер заказа.', 1500000.00),
-    ('Optima Bank (Оптима)', '4052 9876 5432 1098', 'Айбек Т. (Оператор Обмена)', 'KGS', true, 'Перевод по карте Visa Optima Bank. Обязательно сохраните и прикрепите квитанцию об оплате.', 1200000.00),
-    ('DemirBank (Демир)', '4169 5555 4444 3333', 'Aibek T.', 'USD', true, 'USD transfer via DemirBank Visa Card or Elkart / Swift internal transfer.', 50000.00),
-    ('Bakai Bank (Бакай Банк)', '4169 7777 8888 9999', 'Айбек Т.', 'KGS', true, 'Перевод на карту Бакай Банк через приложение Bakai24.', 1000000.00);
+    ('MBank (КБ Кыргызстан)', '0999119118', 'Ахмедов У.', 'KGS', true, 'Перевод по номеру телефона или через MBank: 0999119118 (Ахмедов У.). В комментарии укажите номер заказа.', 1500000.00),
+    ('Optima Bank (Оптима)', '0999119118', 'Ахмедов У.', 'KGS', true, 'Перевод по номеру или карте Optima Bank: 0999119118. Обязательно сохраните и прикрепите квитанцию об оплате.', 1200000.00),
+    ('DemirBank (Демир)', '0999119118', 'Akhmedov U.', 'USD', true, 'USD transfer: 0999119118. Recipient: Akhmedov U.', 50000.00),
+    ('Bakai Bank (Бакай Банк)', '0999119118', 'Ахмедов У.', 'KGS', true, 'Перевод на карту Бакай Банк через приложение Bakai24.', 1000000.00);

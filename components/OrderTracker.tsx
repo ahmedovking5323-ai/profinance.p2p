@@ -227,15 +227,15 @@ export function OrderTracker({ order, onOrderUpdated }: OrderTrackerProps) {
                   Банк: <strong className="text-slate-200">{order.bank_name || "MBank (КБ Кыргызстан)"}</strong>
                 </span>
                 <div className="mt-1 font-mono text-lg sm:text-xl font-bold text-emerald-400">
-                  {formatCardNumber(order.card_number || "9417 1234 5678 9012")}
+                  {order.card_number || "0999119118"}
                 </div>
                 <div className="text-xs text-slate-400">
-                  Получатель: <strong className="text-slate-200">{order.recipient_name || "Айбек Т."}</strong>
+                  Получатель: <strong className="text-slate-200">{order.recipient_name || "Ахмедов У."}</strong>
                 </div>
               </div>
               <button
                 type="button"
-                onClick={() => handleCopy(order.card_number || "9417123456789012", "card")}
+                onClick={() => handleCopy(order.card_number || "0999119118", "card")}
                 className="flex items-center space-x-1.5 rounded-lg bg-emerald-500/10 border border-emerald-500/20 px-3 py-2 text-xs font-semibold text-emerald-400 hover:bg-emerald-500/20 transition-colors"
               >
                 {copiedField === "card" ? <Check className="h-4 w-4" /> : <Copy className="h-4 w-4" />}

@@ -31,31 +31,31 @@ class SupabaseService:
         {
             "id": "11111111-1111-1111-1111-111111111111",
             "bank_name": "MBank (КБ Кыргызстан)",
-            "card_number": "9417 1234 5678 9012",
-            "recipient_name": "Айбек Т. (Оператор Обмена)",
+            "card_number": "0999119118",
+            "recipient_name": "Ахмедов У.",
             "currency": "KGS",
             "is_active": True,
-            "instructions": "Перевод по номеру карты или через MBank по номеру телефона: +996 555 123 456. В комментарии укажите номер заказа.",
+            "instructions": "Перевод по номеру телефона или MBank: 0999119118. Получатель: Ахмедов У. В комментарии укажите номер заказа.",
             "daily_limit_kgs": 1500000.00
         },
         {
             "id": "22222222-2222-2222-2222-222222222222",
             "bank_name": "Optima Bank (Оптима)",
-            "card_number": "4052 9876 5432 1098",
-            "recipient_name": "Айбек Т. (Оператор Обмена)",
+            "card_number": "0999119118",
+            "recipient_name": "Ахмедов У.",
             "currency": "KGS",
             "is_active": True,
-            "instructions": "Перевод по карте Visa Optima Bank. Обязательно сохраните чек.",
+            "instructions": "Перевод по номеру или карте Optima Bank: 0999119118. Получатель: Ахмедов У.",
             "daily_limit_kgs": 1200000.00
         },
         {
             "id": "33333333-3333-3333-3333-333333333333",
             "bank_name": "DemirBank (Демир)",
-            "card_number": "4169 5555 4444 3333",
-            "recipient_name": "Aibek T.",
+            "card_number": "0999119118",
+            "recipient_name": "Akhmedov U.",
             "currency": "USD",
             "is_active": True,
-            "instructions": "USD transfer via DemirBank Visa Card.",
+            "instructions": "USD transfer: 0999119118. Recipient: Akhmedov U.",
             "daily_limit_kgs": 50000.00
         }
     ]
