@@ -14,12 +14,12 @@ export default function HomePage() {
       {/* 1. Hero Section */}
       <section className="mx-auto max-w-7xl px-4 pt-10 pb-6 sm:px-6 sm:pt-14 lg:px-8 text-center">
         {/* Brand Logo Card in Hero */}
-        <div className="mx-auto mb-6 flex max-w-xs sm:max-w-sm items-center justify-center overflow-hidden rounded-2xl bg-white/95 p-3 shadow-2xl shadow-emerald-500/20 border border-slate-700/60">
+        <div className="mx-auto mb-7 flex max-w-sm sm:max-w-xl items-center justify-center overflow-hidden rounded-2xl bg-white p-4 sm:p-5 shadow-2xl shadow-emerald-500/25 border border-slate-600/70 hover:scale-[1.02] transition-transform">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src="/logo.jpg"
             alt="PROFINANCE Currency Exchange"
-            className="h-14 sm:h-16 w-auto object-contain"
+            className="h-20 sm:h-28 w-auto object-contain"
           />
         </div>
 

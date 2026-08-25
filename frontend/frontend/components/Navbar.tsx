@@ -52,7 +52,7 @@ export function Navbar() {
       {/* Main Nav */}
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3.5 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center space-x-3 group">
-          <div className="relative flex h-11 w-36 sm:w-44 items-center justify-center overflow-hidden rounded-xl bg-white/95 p-1 shadow-lg shadow-emerald-500/10 border border-slate-700/50 group-hover:scale-105 transition-transform">
+          <div className="relative flex h-12 sm:h-14 w-44 sm:w-56 items-center justify-center overflow-hidden rounded-xl bg-white p-1.5 shadow-xl shadow-emerald-500/15 border border-slate-600/60 group-hover:scale-105 transition-transform">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img
               src="/logo.jpg"
